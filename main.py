@@ -1,15 +1,17 @@
+#!/usr/bin/env python3
+
+         ############
+        ######by######
+        #####dd64#####
+         ############ 
+
 from functools import partial
 import tkinter as tk
-from unittest import result
-
-
 
 Calculator=tk.Tk()
 Calculator.title("Calculator")
 #Calculator.geometry("400x200")
-global num
 num=''
-
 
 def Calcul(symbole):
     global num
@@ -56,7 +58,6 @@ def Calcul(symbole):
     A.set(num)
     return 
     
-
 def affichage():
     global num
     global A
